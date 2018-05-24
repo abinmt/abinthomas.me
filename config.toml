@@ -1,10 +1,10 @@
-baseurl                 = "/"               # Your domain name. Must end with "/"
+baseurl                 = "http://abinthomas.me/"               # Your domain name. Must end with "/"
 languageCode            = "en-us"
-title                   = "Call me Sam"
+title                   = "Abin Thomas"
 theme                   = "sam"
 pygmentsStyle           = "manni"                     # https://help.farbox.com/pygments.html
 pygmentsCodefences      = true
-# googleAnalytics       = "xxx"             # Tracking code, eg. "UA-111111111-1"
+
 
 [params]
     dateform            = "Mon Jan 02, 2006"
@@ -13,7 +13,7 @@ pygmentsCodefences      = true
     homepage            = "main"                        # What to call the home page link
     galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
     clickablePhotos     = true                          # Allow links to the full size images
-    footerText          = "Call me Sam, a theme for Hugo."
+    #footerText          = "Call me Sam, a theme for Hugo."
 
 # Metadata
     description         = "A new Hugo site."            # Max 160 characters show in search results
@@ -21,14 +21,13 @@ pygmentsCodefences      = true
     primaryImage        = "/tn.png"                     # Image that shows on Twitter cards and OpenGraph links
 
 [[params.mainMenu]]
+    link = "/about"
+    text = "About Me"
+
+[[params.mainMenu]]
     link = "/posts"
-    text = "writing"
+    text = "Posts"
 
 [[params.mainMenu]]
     link = "/gallery"
-    text = "gallery"
-
-[[params.mainMenu]]
-    link = "/about"
-    text = "who is sam?"
-    
+    text = "Gallery"
